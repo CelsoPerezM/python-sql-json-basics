@@ -1,3 +1,20 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Secrets and credentials (never commit these)
+.env
+
+# Mac system files
+.DS_Store
+
 # Project data (download instructions in README)
 data/raw/
 *.db
